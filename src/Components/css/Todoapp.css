@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    /* background-color: rgb(243, 204, 152); */
+    height: 100vh;
+    width: auto;
+}
+.background{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subdiv{
+    /* background-color: rgb(209, 237, 245); */
+    border-radius: 30px;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.subdiv input{
+    padding-left: 2em;
+    font-size: 16px;
+}
+input[type="text"]{
+    font-size: 18px;
+    font-weight: 700;
+    color:  #d47a25;
+}
+.todoinput{
+    width: 30vw;
+    height: 10vh;
+    border-radius: 40px;
+    border-color: rgb(212, 122, 37);
+    outline: none;
+}
+.todoinput::placeholder{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.addbtn{
+    margin-left: 10px;
+    width: 8vw;
+    padding: 1em;
+    border-radius: 70px;
+    background-color:  rgb(212, 122, 37);
+    color: #ffffff;
+    border: none;
+}
+.addbtn span{
+    font-size: 35px;
+}
+.mystyle{
+    list-style-type: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 40vw;
+    font-size: 22px;
+    font-weight: 900;
+    gap: 14em;
+    /* background-color: #d47a25; */
+    color: #d47a25
+}
+.mystyle1{
+    /* text-decoration: line-through; */
+    list-style-type: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 40vw;
+    gap: 14em;
+    font-size: 22px;
+    font-weight: 900;
+    /* background-color: #ecab6e; */
+    color: #ecab6e
+}
+.mytxt{
+    width:'38vw';
+    padding: '10px';
+}
+.mytxt1{
+    width:'38vw';
+    padding: '10px';
+    text-decoration: line-through;
+}
